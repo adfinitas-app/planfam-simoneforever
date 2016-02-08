@@ -85,10 +85,6 @@
 }
 
 /* CUSTOM */
-body {
-	padding-top: 40px;
-}
-
 .navbar {
 	background: none;
 	border: none;
@@ -101,17 +97,13 @@ body {
 }
 
 .navbar-brand {
-	padding: 40px 15px 0;
+	padding: 10px 15px 0;
 	height: 88px;
 	position: absolute;
 	z-index: 1000;
 }
 
-@media all and (max-width: 767px) {
-	body {
-		padding-top: 62px;
-	}
-	
+@media all and (max-width: 767px) {	
 	.navbar {
 		background: #ffffff;
 		height: 60px;
@@ -170,12 +162,12 @@ body {
 
 .bg-grey {
 	background: #e8e8e8;
-	padding-top: 100px;
+	padding-top: 75px;
 	padding-bottom: 160px;
 }
 
 .bg-grey .title {
-	margin-bottom: 105px;
+	margin-bottom: 55px;
 }
 
 .col-grey {
@@ -223,12 +215,12 @@ body {
 
 .bg-white {
 	background: #ffffff;
-	padding-top: 100px;
+	padding-top: 75px;
 	padding-bottom: 160px;
 }
 
 .bg-white .title {
-	margin-bottom: 105px;
+	margin-bottom: 55px;
 }
 
 .bg-white .col-red {
@@ -249,7 +241,7 @@ body {
 	background-size: 100% auto;
 }
 
-.bg-quiz .btn {
+.bg-quiz .btn, .bg-quiz .btn:focus, .bg-quiz .btn:visited {
 	border: 5px solid #ff0249;
 	border-radius: 0;
 	display: inline-block;
@@ -262,6 +254,7 @@ body {
 	-o-transition: all  .1s ease-in;
 	-webkit-transition: all  .1s ease-in;
 	transition: all  .1s ease-in;
+	color: #ffffff;
 }
 
 .bg-quiz .btn:hover {
@@ -273,11 +266,11 @@ body {
 }
 
 .bg-red2 {
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 .bg-red2 .title {
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 }
 
 .bg-red2 .text {

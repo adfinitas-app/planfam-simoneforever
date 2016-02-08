@@ -1,4 +1,0 @@
-Options -Indexes 
-RewriteEngine on
-
-RewriteRule ^quizz$ quiz.html [L]
