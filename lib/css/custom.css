@@ -429,8 +429,17 @@ body.quizz {
 }
 
 .answers img {
-	margin-right: 50px;
 	vertical-align: text-top;
+}
+
+.answer-text {
+	padding-left: 50px;
+	width: 90%;
+}
+
+.answers li span {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .answer {
@@ -637,9 +646,9 @@ form {
 		color: #000000;
 	}
 	
-	.answers img {
-		margin-right: 10px;
-		vertical-align: text-top;
+	.answer-text {
+		padding-left: 10px;
+		width: 90%;
 	}
 }
 
