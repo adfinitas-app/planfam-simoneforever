@@ -420,7 +420,11 @@ body.quizz {
 	margin-bottom: 10px;
 }
 
-.answers li.good.font-red {
+.answers li a, .answers li a:visited, .answers li a:focus {
+	color: #000000;
+}
+
+.answers li.good.font-red a, .answers li.good.font-red a:visited, .answers li.good.font-red a:focus {
 	color: #ff0249;
 }
 
